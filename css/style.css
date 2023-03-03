@@ -128,7 +128,8 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
-/* from 769 to infinite */
+
+/* from 769 to 1160 */
 
 @media screen and (max-width: 1160px){
     .container{
@@ -162,7 +163,7 @@ img {
     }
 
     .steps{
-        margin-bottom: 0em;
+        margin-bottom: 0;
     }
   
     .why-us{
@@ -171,7 +172,7 @@ img {
     }
 
     .why-us .text-center{
-        padding-top: 2em;
+        padding-top: 3rem;
     }
 
     .col-right{
@@ -179,9 +180,10 @@ img {
     }
 
     img{
-        margin-top: 2em;
+        margin-top: 3rem;
     }
 
-    
-
- }
+    h2{
+        margin-bottom: 0px;
+    }
+}
