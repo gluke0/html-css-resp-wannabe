@@ -130,7 +130,7 @@ img {
 
 /* from 769 to infinite */
 
-@media screen and (min-width: 769px){
+@media screen and (max-width: 1160px){
     .container{
         width: 100%;
     }
@@ -151,44 +151,37 @@ img {
  @media screen and (max-width: 480px){
     .container{
         width: 100%;
-        margin: 0 auto;
+    }
+    
+    .lessons .col, .why-us .col-left, .steps .col, .why-us .col-right{
+        width: 100%;
     }
 
     .row{
-        flex-direction: column;
-        width: 100%;
-    }
-
-    .col{
-        width: 100%;
-        margin: 0 auto;
-        padding: 0 0.2rem;
-    }
-
-    .card{
-        width: 100%;
+        flex-wrap: wrap;
     }
 
     .steps{
-        margin-bottom: 0;
+        margin-bottom: 0em;
     }
-
-    .title{
-        display: flex;
-       justify-content: center;
-    }
-
+  
     .why-us{
         background-color: black;
         margin-bottom: 0;
     }
 
-    .text-center{
-        padding-top: 3rem;
+    .why-us .text-center{
+        padding-top: 2em;
     }
 
     .col-right{
         margin-top: 3rem;
     }
+
+    img{
+        margin-top: 2em;
+    }
+
+    
 
  }
