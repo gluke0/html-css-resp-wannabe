@@ -149,5 +149,46 @@ img {
  /* smartphone up to 480px */
  
  @media screen and (max-width: 480px){
-   
+    .container{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .row{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .col{
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 0.2rem;
+    }
+
+    .card{
+        width: 100%;
+    }
+
+    .steps{
+        margin-bottom: 0;
+    }
+
+    .title{
+        display: flex;
+       justify-content: center;
+    }
+
+    .why-us{
+        background-color: black;
+        margin-bottom: 0;
+    }
+
+    .text-center{
+        padding-top: 3rem;
+    }
+
+    .col-right{
+        margin-top: 3rem;
+    }
+
  }
