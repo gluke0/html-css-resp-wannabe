@@ -127,3 +127,27 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+
+/* from 769 to infinite */
+
+@media screen and (min-width: 769px){
+    .container{
+        width: 100%;
+    }
+}
+
+
+ /* tablet up to 768px */
+
+@media screen and (max-width: 768px){
+    .container{
+        width: 100%;
+    }
+ }
+    
+
+ /* smartphone up to 480px */
+ 
+ @media screen and (max-width: 480px){
+   
+ }
